@@ -9,11 +9,12 @@ body {
     position: relative;
     top: 20%;
     margin: auto;
-    width: 740px;
-    height: 445px;
+    width: 840px;
+    height: 545px;
     border-radius: 3em;
     box-shadow: 0 3px 10px 0 rgba(240, 200, 200, 0.87);
     text-align: left;
+    
     
 }
 
@@ -22,31 +23,35 @@ body {
 input[type=text] {
     color: #949494;
     margin-right:auto;
-    background-color: #ffffff;
+    background-color: white;
     border: 1px solid #ffffff;
-    padding: 8px 0px;
+    padding: 7px 22px;
     border-radius: 3px;
+    margin: 5px ;
 }
+
 input[type=text]:focus {
     border: 1px solid #373b3d;
 }
 input[type=password] {
     color: #949494;
-    margin: 5;
     background-color: #ffffff;
     border: 1px solid #ffffff;
-    padding: 8px 0px;
+    padding: 7px 22px;
     border-radius: 3px;
+    margin: 5px;
+
 }
 input[type=password]:focus {
-    border: 1px solid #373b3d;
+    border: 1px solid #2a6c8d;
 }
 .forgot-password {
+    font: 1em sans-serif;
     position: relative;
     bottom: -1%;
 }
 .forgot-password a:link {
-    color: #708080;
+    color: #1226d4;
     text-decoration: none;
 }
 .forgot-password a:visited {
@@ -54,7 +59,7 @@ input[type=password]:focus {
     text-decoration: none;
 }
 .forgot-password a:hover {
-    color: rgb(216, 38, 38);
+    color: rgb(26, 79, 224);
     transition: color 1s;
 }
 .register {
@@ -102,10 +107,9 @@ input[type=password]:focus {
     padding:12px 25px;
     text-align:left;
     width:55%;
+}
+
+.logintext{
+    margin-left: 5px;
     
-    
-    
-    
-    
-   
 }
